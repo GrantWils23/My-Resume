@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
+/* 
 .row {
     margin-left: 0;
     margin-right: 0;
@@ -11,10 +11,31 @@
     padding-right: 0px;
 }
 
+.col {
+    padding-left: 0px;
+    padding-right: 0px;
+} */
+
 /* ----------------------------------- Colors */
 
 .bg-color-name-title {
     background-color: #5abdb4;
+}
+
+.ui-menu-color-home {
+    background-color: rgb(54, 209, 114);
+}
+
+.ui-menu-color-resume {
+    background-color: rgb(62, 176, 194);
+}
+
+.ui-menu-color-contact {
+    background-color: rgb(197, 58, 58)
+}
+
+.ui-menu-color-download {
+    background-color: rgb(230, 230, 119)
 }
 
 /* ----------------------------------- Heading */
@@ -54,4 +75,17 @@ header {
     margin-top: 20px;
     margin-bottom: 80px;
     color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0px;
 }
