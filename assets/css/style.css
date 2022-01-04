@@ -212,3 +212,20 @@ section h3 {
     padding-left: 10px;
     color: white;
 }
+
+
+/* ----------------------------------------------- three reasons */
+
+.row p {
+    color: white;
+}
+
+.three-reasons-icon {
+    color: white;
+    font-size: 28px;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+    color: white;
+}
