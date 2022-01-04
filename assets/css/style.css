@@ -11,20 +11,24 @@
     background-color: cadetblue;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home {
-    background-color: rgb(21, 84, 94);
+    background-color: rgb(46, 124, 136);
 }
 
 .ui-menu-color-resume {
-    background-color: rgb(15, 75, 38);
+    background-color: rgb(54, 104, 73);
 }
 
 .ui-menu-color-contact {
-    background-color: rgb(119, 30, 30)
+    background-color: rgb(142, 143, 110)
 }
 
 .ui-menu-color-download {
-    background-color: rgb(129, 34, 133)
+    background-color: rgb(159, 126, 160)
 }
 
 /* ----------------------------------------------- Special paddings/margins/text */
@@ -137,7 +141,7 @@ header {
 
 .menuitem a i {
     padding-top: 22px;
-    display: block;
+    display: flexbox;
     color: #ccc;
     font-size: 26px;
 }
@@ -228,4 +232,24 @@ section h3 {
 .three-reasons-heading {
     margin-bottom: 15px;
     color: white;
+}
+
+
+/* ----------------------------------------------- Personal Info */
+
+#personal-info-heading {
+    color: teal;
+}
+
+.key p{
+    font-family: "Roboto" sans-serif;
+    font-weight: 300;
+    font-weight: bold;
+    color: rgb(3, 73, 73);
+}
+
+.value p{
+    font-family: "Exo" sans-serif;
+    font-weight: 400;
+    color: rgb(3, 73, 73);
 }
