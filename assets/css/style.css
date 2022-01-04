@@ -7,6 +7,10 @@
     background-color: #5abdb4;
 }
 
+.bg-color-three-reasons {
+    background-color: cadetblue;
+}
+
 .ui-menu-color-home {
     background-color: rgb(21, 84, 94);
 }
@@ -44,6 +48,23 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300px;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /* ----------------------------------- Heading */
@@ -182,4 +203,12 @@ footer i {
 
 #footer-details {
     padding: 20px;
+}
+
+
+/* ----------------------------------------------- Section */
+
+section h3 {
+    padding-left: 10px;
+    color: white;
 }
