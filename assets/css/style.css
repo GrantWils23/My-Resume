@@ -23,6 +23,25 @@
     background-color: rgb(129, 34, 133)
 }
 
+/* ----------------------------------------------- Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    color:  #fafafa;
+}
+
 /* ----------------------------------- Heading */
 
 header {
@@ -105,6 +124,22 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 2px;
+}
+
+/* ----------------------------------------------- Footer */
+
+footer {
+    background-color: #5abdb4;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    position: relative;
+    align-items: center;
+    display: grid;
+}
+
+.col-sm-4 h5 {
+
 }
