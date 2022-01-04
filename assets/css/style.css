@@ -15,12 +15,24 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-my-skills {
+    background-color:rgb(109, 177, 148);
+}
+
+.bg-color-work-history {
+    background-color: #f4f4f4;
+}
+
+.bg-color-contact-panel {
+    background-color: rgb(211, 205, 135);
+}
+
 .ui-menu-color-home {
     background-color: rgb(46, 124, 136);
 }
 
 .ui-menu-color-resume {
-    background-color: rgb(54, 104, 73);
+    background-color: rgb(77, 165, 128);
 }
 
 .ui-menu-color-contact {
@@ -206,7 +218,8 @@ footer i {
 }
 
 #footer-details {
-    padding: 20px;
+    padding: 44px 20px;
+    
 }
 
 
@@ -241,15 +254,77 @@ section h3 {
     color: teal;
 }
 
-.key p{
+.personal-info-item .key,
+.personal-info-item .value {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .value {
+    width: 60%;
+}
+
+.personal-info-item .key p{
     font-family: "Roboto" sans-serif;
     font-weight: 300;
     font-weight: bold;
     color: rgb(3, 73, 73);
 }
 
-.value p{
+.personal-info-item .value p{
     font-family: "Exo" sans-serif;
     font-weight: 400;
     color: rgb(3, 73, 73);
+    word-wrap: break-word;
+}
+
+
+
+/* ----------------------------------------------- Skills */
+
+.progress-container {
+    background-color: #fafafa;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin: 30px 40px 20px 40px;
+
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+    background-color: lightgrey;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 4px 10px;
+    color: #fafafa;
+    background-color: rgba(25,25,25,0.2);
+
 }
