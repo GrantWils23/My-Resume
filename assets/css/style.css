@@ -23,19 +23,19 @@
 }
 
 .ui-menu-color-home {
-    background-color: rgb(54, 209, 114);
+    background-color: rgb(21, 84, 94);
 }
 
 .ui-menu-color-resume {
-    background-color: rgb(62, 176, 194);
+    background-color: rgb(15, 75, 38);
 }
 
 .ui-menu-color-contact {
-    background-color: rgb(197, 58, 58)
+    background-color: rgb(119, 30, 30)
 }
 
 .ui-menu-color-download {
-    background-color: rgb(230, 230, 119)
+    background-color: rgb(129, 34, 133)
 }
 
 /* ----------------------------------- Heading */
@@ -88,4 +88,35 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0px;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #aaa;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #aaa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
