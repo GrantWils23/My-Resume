@@ -42,6 +42,10 @@ h4 {
     color:  #fafafa;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 /* ----------------------------------- Heading */
 
 header {
@@ -106,14 +110,14 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #aaa;
+    color:#ccc;
     height: 120px;
 }
 
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #aaa;
+    color: #ccc;
     font-size: 26px;
 }
 
@@ -124,7 +128,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
@@ -140,6 +144,42 @@ footer {
     display: grid;
 }
 
-.col-sm-4 h5 {
+.cv-pdf i{
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+}
 
+footer p {
+    font-size: 16px;
+}
+
+footer a {
+    margin: 5px;
+}
+
+footer i {
+    color: white;
+    display: block;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    margin: 3px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    background-color:darkcyan;
+}
+
+#footer-details {
+    padding: 20px;
 }
