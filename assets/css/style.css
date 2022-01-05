@@ -24,7 +24,7 @@
 }
 
 .bg-color-contact-panel {
-    background-color: rgb(211, 205, 135);
+    background-color: rgb(168, 168, 129);
 }
 
 .ui-menu-color-home {
@@ -380,4 +380,69 @@ section h3 {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/* ----------------------------------------------- Contact Heading Box */
+
+#contact-heading {
+    color: rgb(142, 143, 110);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-sub-heading {
+    color: rgb(168, 168, 129);
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    font-size: 23px;
+}
+
+.inspire-quote-box {
+    margin:auto 0;
+    text-align: center;
+    padding-top:70px;
+    padding-bottom: 50px;
+}
+
+.inspire-quote-box p {
+    color: darkslategray;
+    font-weight: 300;
+    font-family: "Exo", sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+/* ----------------------------------------------- Contact Form Box */
+
+.center-form {
+    margin: 0 auto;
+    max-width: 80%;
+    font-family: "Exo", sans-serif;
+    padding-top: 30px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    border-width: 0px;
+}
+
+.form-control {
+    margin: 6px 0 0 6px;
+
+}
+
+
+/* ----------------------------------------------- Media-Queries */
+
+
+
+@media(min-width: 700px){
+    .center-form {
+        margin: 0 auto;
+        min-height: 300px;
+        max-width: 75%;
+    }
 }
