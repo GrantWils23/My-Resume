@@ -326,5 +326,58 @@ section h3 {
     padding: 3px 30px 4px 10px;
     color: #fafafa;
     background-color: rgba(25,25,25,0.2);
+}
 
+
+/* ----------------------------------------------- Work History */
+
+#work-history-heading {
+    color: rgb(77, 165, 128);
+    margin-bottom: 50px;
+}
+
+.timeline-item h4 {
+    color: rgb(77, 165, 128);
+}
+
+.timeline-item p {
+    color: rgb(77, 165, 128);
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 3em;
+    position:relative;
+    color: rgb(77, 165, 128);
+    border-left: 1px solid;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: " ";
+    background-color: rgb(77, 165, 128);
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
