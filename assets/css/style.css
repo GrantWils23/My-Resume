@@ -27,6 +27,14 @@
     background-color: rgb(168, 168, 129);
 }
 
+.bg-color-groups {
+    background-color: rgb(167, 103, 103);
+}
+
+.bg-color-github {
+    background-color: rgb(233, 177, 72);
+}
+
 .ui-menu-color-home {
     background-color: rgb(46, 124, 136);
 }
@@ -36,11 +44,19 @@
 }
 
 .ui-menu-color-contact {
-    background-color: rgb(142, 143, 110)
+    background-color: rgb(158, 160, 102)
 }
 
 .ui-menu-color-download {
     background-color: rgb(159, 126, 160)
+}
+
+.ui-menu-color-interests {
+    background-color: rgb(143, 69, 69);
+}
+
+.ui-menu-color-github {
+    background-color: rgb(221, 147, 86);
 }
 
 /* ----------------------------------------------- Special paddings/margins/text */
@@ -434,6 +450,17 @@ button[type="submit"] {
 
 }
 
+/* ----------------------------------------------- Interest headings */
+
+#interests-heading {
+    color: rgb(160, 89, 89);
+}
+
+/* ----------------------------------------------- Interest headings */
+
+#interests-heading {
+    color: rgb(160, 89, 89);
+}
 
 /* ----------------------------------------------- Media-Queries */
 
