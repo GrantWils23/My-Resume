@@ -466,6 +466,12 @@ div#map {
     min-height: 360px;
 }
 
+/* ----------------------------------------------- Github stylings */
+
+.bg-color-github h3 {
+    margin-top: 15px;
+} 
+
 /* ----------------------------------------------- Media-Queries */
 
 
